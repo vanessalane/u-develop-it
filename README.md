@@ -4,27 +4,27 @@
 Node/Express/SQLite backend that could be used to manage an election (in a world without security concerns). It includes the following endpoints:
 
 **Candidates**
-- Get all candidates:     GET `/candidates`
-- Get a single candidate: GET `/candidate/:id`
-- Create a candidate:     POST `/candidates`
-- Update party:           PUT `/candidates/:id`
-- Delete a candidate:     DELETE `/candidate/:id`
+- Get all candidates:      `GET /candidates`
+- Get a single candidate:  `GET /candidate/:id`
+- Create a candidate:      `POST /candidates`
+- Update party:            `PUT /candidates/:id`
+- Delete a candidate:      `DELETE /candidate/:id`
 
 **Parties**
-- Get all parties:    GET `/parties`
-- Get a single party: GET `/party/:id`
-- Delete a party:     DELETE `/party/:id`
+- Get all parties:     `GET /parties`
+- Get a single party:  `GET /party/:id`
+- Delete a party:      `DELETE /party/:id`
 
 **Votes**
-- Get all votes:      GET `/votes`
-- Create new vote:    POST `/vote`
+- Get all votes:       `GET /votes`
+- Create new vote:     `POST /vote`
 
 **Voters**
-- Get all voters:     GET `/voters`
-- Get specific voter: GET `/voter/:id`
-- Add voter:          POST `/voter`
-- Update a voter:     PUT `/voter/:id`
-- Delete a voter:     DELETE `/voter/:id`
+- Get all voters:      `GET /voters`
+- Get specific voter:  `GET /voter/:id`
+- Add voter:           `POST /voter`
+- Update a voter:      `PUT /voter/:id`
+- Delete a voter:      `DELETE /voter/:id`
 
 ## Usage
 1. Clone the repo
